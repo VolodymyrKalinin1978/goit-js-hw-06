@@ -19,10 +19,7 @@ const onSubmit = (e) => {
 
   console.log(userData);
 
-  // formEl.reset();
-  // або
   e.currentTarget.reset();
-  
 };
 
 formEl.addEventListener("submit", onSubmit);
